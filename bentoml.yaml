@@ -1,0 +1,10 @@
+Service:"Service py:svc"
+labels:
+ owner:bentoml_term
+ project:gallery
+ include:
+ _"*.py"
+ python:
+ packages:
+   -scikit-learn
+   -pandas
